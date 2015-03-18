@@ -1,0 +1,9 @@
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\woodsman\bin\Debug\woodsman.exe.config
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\woodsman\bin\Debug\woodsman.exe
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\woodsman\bin\Debug\woodsman.pdb
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\woodsman\obj\Debug\woodsman.exe
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\woodsman\obj\Debug\woodsman.pdb
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\woodsman\bin\Debug\map.txt
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\woodsman\obj\Debug\woodsman.csprojResolveAssemblyReference.cache
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\woodsman\obj\Debug\woodsman.MainWindow.resources
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\woodsman\obj\Debug\woodsman.csproj.GenerateResource.Cache

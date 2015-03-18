@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForestTest", "ForestTest\ForestTest.csproj", "{EDB12C15-8161-4777-899A-DD9F10BD473C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forestInhabitant", "ForestInhabitant\forestInhabitant.csproj", "{1471FE0A-6D61-4E3E-A22B-384A05A7D6E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiTests", "AiTests\AiTests.csproj", "{E7196DDC-5CA8-428C-BD4B-9D5A61794CEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDB12C15-8161-4777-899A-DD9F10BD473C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB12C15-8161-4777-899A-DD9F10BD473C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB12C15-8161-4777-899A-DD9F10BD473C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB12C15-8161-4777-899A-DD9F10BD473C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1471FE0A-6D61-4E3E-A22B-384A05A7D6E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1471FE0A-6D61-4E3E-A22B-384A05A7D6E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1471FE0A-6D61-4E3E-A22B-384A05A7D6E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1471FE0A-6D61-4E3E-A22B-384A05A7D6E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7196DDC-5CA8-428C-BD4B-9D5A61794CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7196DDC-5CA8-428C-BD4B-9D5A61794CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7196DDC-5CA8-428C-BD4B-9D5A61794CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7196DDC-5CA8-428C-BD4B-9D5A61794CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

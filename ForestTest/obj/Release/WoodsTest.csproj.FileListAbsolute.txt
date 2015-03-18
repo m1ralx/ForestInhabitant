@@ -1,0 +1,7 @@
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\WoodsTest\bin\Release\WoodsTest.dll
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\WoodsTest\bin\Release\WoodsTest.pdb
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\WoodsTest\bin\Release\woodsman.exe
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\WoodsTest\bin\Release\woodsman.pdb
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\WoodsTest\obj\Release\WoodsTest.csprojResolveAssemblyReference.cache
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\WoodsTest\obj\Release\WoodsTest.dll
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\WoodsTest\obj\Release\WoodsTest.pdb

@@ -1,0 +1,6 @@
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\woodsman\bin\Release\woodsman.exe.config
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\woodsman\bin\Release\woodsman.exe
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\woodsman\bin\Release\woodsman.pdb
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\woodsman\obj\Release\woodsman.csprojResolveAssemblyReference.cache
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\woodsman\obj\Release\woodsman.exe
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\woodsman\obj\Release\woodsman.pdb

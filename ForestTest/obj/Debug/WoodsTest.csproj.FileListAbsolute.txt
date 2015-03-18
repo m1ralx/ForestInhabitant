@@ -1,0 +1,9 @@
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\WoodsTest\obj\Debug\WoodsTest.csprojResolveAssemblyReference.cache
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\WoodsTest\bin\Debug\map.txt
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\WoodsTest\bin\Debug\WoodsTest.dll
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\WoodsTest\bin\Debug\WoodsTest.pdb
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\WoodsTest\bin\Debug\woodsman.exe
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\WoodsTest\bin\Debug\woodsman.pdb
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\WoodsTest\obj\Debug\WoodsTest.dll
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\WoodsTest\obj\Debug\WoodsTest.pdb
+C:\Users\Alexey\Desktop\OOP\woodsman\woodsman\WoodsTest\bin\Debug\test_map.txt

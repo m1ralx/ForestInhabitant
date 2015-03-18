@@ -1,0 +1,8 @@
+C:\Users\Alexey\Desktop\backup\ForestInhabitant\AiTests\bin\Debug\map.txt
+C:\Users\Alexey\Desktop\backup\ForestInhabitant\AiTests\bin\Debug\AiTests.dll
+C:\Users\Alexey\Desktop\backup\ForestInhabitant\AiTests\bin\Debug\AiTests.pdb
+C:\Users\Alexey\Desktop\backup\ForestInhabitant\AiTests\bin\Debug\ForestInhabitant.exe
+C:\Users\Alexey\Desktop\backup\ForestInhabitant\AiTests\bin\Debug\ForestInhabitant.pdb
+C:\Users\Alexey\Desktop\backup\ForestInhabitant\AiTests\obj\Debug\AiTests.csprojResolveAssemblyReference.cache
+C:\Users\Alexey\Desktop\backup\ForestInhabitant\AiTests\obj\Debug\AiTests.dll
+C:\Users\Alexey\Desktop\backup\ForestInhabitant\AiTests\obj\Debug\AiTests.pdb
