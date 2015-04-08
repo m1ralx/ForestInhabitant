@@ -10,7 +10,7 @@ namespace ForestInhabitant
     public delegate void OnInhabitantDead(Point location, string name);
     public class Inhabitant : ForestObject
     {
-        public ForestCell LastCell { get; set; }
+        public ForestObject LastCell { get; set; }
         public event OnInhabitantDead OnDead;
         private string Symbol 
         { 
@@ -27,12 +27,12 @@ namespace ForestInhabitant
         private string Name { get; set; }
         private int HitPoints { get; set; }
 
-        public Inhabitant(string name, Point location)
+        public Inhabitant(string name, Point location, int hp)
         {
             LastCell = new Road(location);
             Location = location;
             Name = name;
-            HitPoints = 3;
+            HitPoints = hp;
         }
 
         public string GetSymbol()
@@ -59,7 +59,10 @@ namespace ForestInhabitant
 
         public bool Interaction(IForest forest, Inhabitant actor)
         {
-            return false;
+            forest[Location] = actor;
+            forest[actor.GetLocation()] = actor.LastCell;
+            actor.LastCell = this;
+            return true;
         }
         
         private void SetLocation(Point location)
@@ -74,13 +77,6 @@ namespace ForestInhabitant
             var targetPoint = new Point(Location.X + direction.X, Location.Y + direction.Y);
             var neighbour = forest[targetPoint];
             var resultOfMove = neighbour.Interaction(forest, this);
-            
-            
-            //var actions = new Dictionary<bool, Action<Point>> { 
-            //    { true, SetLocation },
-            //    { false, DoNothing } 
-            //};
-            //actions[resultOfMove](targetPoint);
             while (resultOfMove)
             {
                 Location = targetPoint;

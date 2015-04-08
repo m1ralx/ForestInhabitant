@@ -1,0 +1,12 @@
+C:\Users\Alexey\Desktop\OOP\ClientPlayer\bin\Debug\ClientPlayer.exe.config
+C:\Users\Alexey\Desktop\OOP\ClientPlayer\bin\Debug\ClientPlayer.exe
+C:\Users\Alexey\Desktop\OOP\ClientPlayer\bin\Debug\ClientPlayer.pdb
+C:\Users\Alexey\Desktop\OOP\ClientPlayer\obj\Debug\ClientPlayer.exe
+C:\Users\Alexey\Desktop\OOP\ClientPlayer\obj\Debug\ClientPlayer.pdb
+C:\Users\Alexey\Desktop\OOP\ClientPlayer\obj\Debug\ClientPlayer.csprojResolveAssemblyReference.cache
+C:\Users\Alexey\Desktop\OOP\ClientPlayer\bin\Debug\map.txt
+C:\Users\Alexey\Desktop\OOP\ClientPlayer\bin\Debug\ForestInhabitant.exe
+C:\Users\Alexey\Desktop\OOP\ClientPlayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alexey\Desktop\OOP\ClientPlayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alexey\Desktop\OOP\ClientPlayer\bin\Debug\ForestInhabitant.pdb
+C:\Users\Alexey\Desktop\OOP\ClientPlayer\bin\Debug\config.conf

@@ -1,0 +1,36 @@
+client commands:
+{
+	connect
+	name "name"
+	move "x.y"
+	result "true|false hitpoints"
+}
+server commands:
+{
+	next // отправляет игроку с каким-то номером флаг, что ему нужно ходить
+	state "true|false hitpoints"
+	gameover
+	sendmap "MapFormat"
+	settings "width height"
+}
+visualizator commands:
+{
+	request
+}
+
+1. Init
+# все присоединились -->
+2. Game
+
+
+MapFormat:
+{
+	message = [2:3] + x
+	1			|2	  |3	 |x	 |
+	len(message)|width|height|map|
+}
+SettFormat:
+{
+	width height
+}
+

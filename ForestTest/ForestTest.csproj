@@ -63,9 +63,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ForestInhabitant\forestInhabitant.csproj">
+    <ProjectReference Include="..\ForestInhabitant\ForestInhabitantServer.csproj">
       <Project>{1471fe0a-6d61-4e3e-a22b-384a05a7d6e9}</Project>
-      <Name>forestInhabitant</Name>
+      <Name>ForestInhabitantServer</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

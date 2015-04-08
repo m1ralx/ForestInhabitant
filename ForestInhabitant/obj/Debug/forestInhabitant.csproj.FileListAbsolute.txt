@@ -23,3 +23,14 @@ C:\Users\Alexey\Desktop\backup\ForestInhabitant\ForestInhabitant\bin\Debug\Fores
 C:\Users\Alexey\Desktop\backup\ForestInhabitant\ForestInhabitant\obj\Debug\ForestInhabitant.MainWindow.resources
 C:\Users\Alexey\Desktop\backup\ForestInhabitant\ForestInhabitant\obj\Debug\forestInhabitant.csproj.GenerateResource.Cache
 C:\Users\Alexey\Desktop\backup\ForestInhabitant\ForestInhabitant\obj\Debug\forestInhabitant.csprojResolveAssemblyReference.cache
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\bin\Debug\ForestInhabitant.exe.config
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\obj\Debug\ForestInhabitant.exe
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\obj\Debug\ForestInhabitant.pdb
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\bin\Debug\map.txt
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\bin\Debug\ForestInhabitant.exe
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\bin\Debug\ForestInhabitant.pdb
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\obj\Debug\forestInhabitant.csprojResolveAssemblyReference.cache
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\obj\Debug\ForestInhabitant.MainWindow.resources
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\obj\Debug\forestInhabitant.csproj.GenerateResource.Cache
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\bin\Debug\Newtonsoft.Json.xml

@@ -16,3 +16,15 @@ C:\Users\Alexey\Desktop\backup\ForestInhabitant\ForestTest\bin\Debug\ForestInhab
 C:\Users\Alexey\Desktop\backup\ForestInhabitant\ForestTest\obj\Debug\ForestTest.csprojResolveAssemblyReference.cache
 C:\Users\Alexey\Desktop\backup\ForestInhabitant\ForestTest\obj\Debug\WoodsTest.dll
 C:\Users\Alexey\Desktop\backup\ForestInhabitant\ForestTest\obj\Debug\WoodsTest.pdb
+C:\Users\Alexey\Desktop\OOP\ForestTest\bin\Debug\map.txt
+C:\Users\Alexey\Desktop\OOP\ForestTest\bin\Debug\test_map.txt
+C:\Users\Alexey\Desktop\OOP\ForestTest\bin\Debug\WoodsTest.dll
+C:\Users\Alexey\Desktop\OOP\ForestTest\bin\Debug\WoodsTest.pdb
+C:\Users\Alexey\Desktop\OOP\ForestTest\bin\Debug\ForestInhabitant.exe
+C:\Users\Alexey\Desktop\OOP\ForestTest\obj\Debug\ForestTest.csprojResolveAssemblyReference.cache
+C:\Users\Alexey\Desktop\OOP\ForestTest\obj\Debug\WoodsTest.dll
+C:\Users\Alexey\Desktop\OOP\ForestTest\obj\Debug\WoodsTest.pdb
+C:\Users\Alexey\Desktop\OOP\ForestTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alexey\Desktop\OOP\ForestTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alexey\Desktop\OOP\ForestTest\bin\Debug\config.conf
+C:\Users\Alexey\Desktop\OOP\ForestTest\bin\Debug\ForestInhabitant.pdb

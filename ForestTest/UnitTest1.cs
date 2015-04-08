@@ -19,7 +19,7 @@ namespace ForestInhabitant
         public void TestSpawnInhabitant()
         {
             var forest = Loader.LoadForest(@".\test_map.txt");
-            forest.SpawnNewInhabitant("Legolas", new Point(3, 1));
+            forest.SpawnNewInhabitant("Legolas", new Point(3, 1), 3);
             var legolas = (Inhabitant)forest[new Point(3, 1)];
             Assert.IsTrue(legolas is Inhabitant);
             Assert.AreEqual(legolas.GetHitPoints(), 3);
@@ -29,7 +29,7 @@ namespace ForestInhabitant
         public void TestMoveInhabitant()
         {
             var forest = Loader.LoadForest(@".\test_map.txt");
-            forest.SpawnNewInhabitant("Test", new Point(3, 1));
+            forest.SpawnNewInhabitant("Test", new Point(3, 1), 3);
             var test = (Inhabitant)forest[new Point(3, 1)];
             test.Move(forest, new Point(1, 0));
             Assert.IsTrue(forest[new Point(3, 1)] is Road);
@@ -42,7 +42,7 @@ namespace ForestInhabitant
         public void TestMoveInhabitantToTrap()
         {
             var forest = Loader.LoadForest(@".\test_map.txt");
-            forest.SpawnNewInhabitant("Test", new Point(7, 2));
+            forest.SpawnNewInhabitant("Test", new Point(7, 2), 3);
             var test = (Inhabitant)forest[new Point(7, 2)];
             test.Move(forest, new Point(0, -1));
             Assert.IsTrue(forest[new Point(7, 2)] is Road);
@@ -55,7 +55,7 @@ namespace ForestInhabitant
         public void TestMoveFromTrap()
         {
             var forest = Loader.LoadForest(@".\test_map.txt");
-            forest.SpawnNewInhabitant("Test", new Point(7, 2));
+            forest.SpawnNewInhabitant("Test", new Point(7, 2), 3);
             var test = (Inhabitant)forest[new Point(7, 2)];
             test.Move(forest, new Point(0, 1));
             test.Move(forest, new Point(0, 1));

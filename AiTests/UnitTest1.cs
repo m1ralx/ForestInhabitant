@@ -13,7 +13,7 @@ namespace AiTests
         public void TestMoveAi()
         {
             var forest = Loader.LoadForest(@".\map.txt");
-            forest.SpawnNewInhabitant("lol", new Point(7, 2));
+            forest.SpawnNewInhabitant("lol", new Point(7, 2), 3);
             var bot = (Inhabitant)forest[new Point(7, 2)];
             var ai = new Ai(bot, new Point(7, 3), forest.MoveInhabitant, forest.Width, forest.Height);
             while (true)
@@ -24,5 +24,82 @@ namespace AiTests
             }
             Assert.AreEqual(bot.GetLocation(),new Point(7, 3));
         }
+
+        [TestMethod]
+        public void TestMoveUp()
+        {
+            var forest = Loader.LoadForest(@".\map1.txt");
+            forest.SpawnNewInhabitant("lol", new Point(0, 4), 3);
+            var bot = (Inhabitant)forest[new Point(0, 4)];
+            var ai = new Ai(bot, new Point(0, 0), forest.MoveInhabitant, forest.Width, forest.Height);
+            while (true)
+            {
+                ai.MoveInhabitantToDestination();
+                if (bot.GetLocation() == new Point(0, 0))
+                    break;
+            }
+            Assert.AreEqual(bot.GetLocation(), new Point(0, 0));
+        }
+        [TestMethod]
+        public void TestMoveDown()
+        {
+            var forest = Loader.LoadForest(@".\map1.txt");
+            forest.SpawnNewInhabitant("lol", new Point(0, 0),3);
+            var bot = (Inhabitant)forest[new Point(0, 0)];
+            var ai = new Ai(bot, new Point(0, 4), forest.MoveInhabitant, forest.Width, forest.Height);
+            while (true)
+            {
+                ai.MoveInhabitantToDestination();
+                if (bot.GetLocation() == new Point(0, 4))
+                    break;
+            }
+            Assert.AreEqual(bot.GetLocation(), new Point(0, 4));
+        }
+        [TestMethod]
+        public void TestMoveDiagonal()
+        {
+            var forest = Loader.LoadForest(@".\map1.txt");
+            forest.SpawnNewInhabitant("lol", new Point(0, 0), 3);
+            var bot = (Inhabitant)forest[new Point(0, 0)];
+            var ai = new Ai(bot, new Point(4, 4), forest.MoveInhabitant, forest.Width, forest.Height);
+            while (true)
+            {
+                ai.MoveInhabitantToDestination();
+                if (bot.GetLocation() == new Point(4, 4))
+                    break;
+            }
+            Assert.AreEqual(bot.GetLocation(), new Point(4, 4));
+        }
+        [TestMethod]
+        public void TestMoveEzMaze()
+        {
+            var forest = Loader.LoadForest(@".\ez_maze.txt");
+            forest.SpawnNewInhabitant("lol", new Point(1, 1), 3);
+            var bot = (Inhabitant)forest[new Point(1, 1)];
+            var ai = new Ai(bot, new Point(9, 8), forest.MoveInhabitant, forest.Width, forest.Height);
+            while (true)
+            {
+                ai.MoveInhabitantToDestination();
+                if (bot.GetLocation() == new Point(9, 8))
+                    break;
+            }
+            Assert.AreEqual(bot.GetLocation(), new Point(9, 8));
+        }
+        [TestMethod]
+        public void TestMoveMedMaze()
+        {
+            var forest = Loader.LoadForest(@".\med_maze.txt");
+            forest.SpawnNewInhabitant("lol", new Point(1, 1), 3);
+            var bot = (Inhabitant)forest[new Point(1, 1)];
+            var ai = new Ai(bot, new Point(9, 8), forest.MoveInhabitant, forest.Width, forest.Height);
+            while (true)
+            {
+                ai.MoveInhabitantToDestination();
+                if (bot.GetLocation() == new Point(9, 8))
+                    break;
+            }
+            Assert.AreEqual(bot.GetLocation(), new Point(9, 8));
+        }
+        
     }
 }

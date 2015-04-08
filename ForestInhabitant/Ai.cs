@@ -49,7 +49,7 @@ namespace ForestInhabitant
             queue.Enqueue(location);
             var visited = new HashSet<Point>();
             var parents = new Dictionary<Point, Point>();
-            Point last = new Point(-1, -1);
+            var last = new Point(-1, -1);
 
             while (queue.Any())
             {
@@ -144,7 +144,7 @@ namespace ForestInhabitant
         private void FillQueue()
         {
             var directions = new[] { new Point(1, 0), new Point(-1, 0), new Point(0, 1), new Point(0, -1) };
-            List<Point> pointsList = directions.Select(direction => new Point(Man.GetLocation().X + direction.X, Man.GetLocation().Y + direction.Y)).ToList();
+            var pointsList = directions.Select(direction => new Point(Man.GetLocation().X + direction.X, Man.GetLocation().Y + direction.Y)).ToList();
             var queue = new Queue<Point>(pointsList.Where(p => InField(p) && Map[p.X, p.Y] == CellTypes.NotVisited));
             foreach (var p in Queue)
                 queue.Enqueue(p);

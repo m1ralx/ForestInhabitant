@@ -9,7 +9,7 @@ namespace ForestInhabitant
 {
     public interface IForest
     {
-        void SpawnNewInhabitant(string name, Point location);
+        Inhabitant SpawnNewInhabitant(string name, Point location, int hp);
         bool MoveInhabitant(Point direction, Inhabitant inhabitant);
         ForestObject this[Point p] { get; set; }
         int Width { get; }
@@ -17,5 +17,6 @@ namespace ForestInhabitant
         ForestObject[,] GetMap();
         event OnMapChange OnChangeMap;
         bool HasAliveInhabitants { get; }
+        void RemoveInhabitant(Point location, string name);
     }
 }

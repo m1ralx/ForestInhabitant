@@ -66,19 +66,20 @@ namespace ForestInhabitant
             if (OnChangeMap != null)
                 OnChangeMap(Map, Inhabitants);
         }
-        private void RemoveInhabitant(Point location, string name)
+        public void RemoveInhabitant(Point location, string name)
         {
             this[location] = Inhabitants[name].LastCell;
             Inhabitants.Remove(name);
             OnChangeMap(Map, Inhabitants);
         }
-        public void SpawnNewInhabitant(string name, Point location)
+        public Inhabitant SpawnNewInhabitant(string name, Point location, int hp)
         {
-            var inhabitant = new Inhabitant(name, location);
+            var inhabitant = new Inhabitant(name, location, hp);
             this[location] = inhabitant;
             Inhabitants.Add(name, inhabitant);
             CheckOnChangeMap();
             inhabitant.OnDead += RemoveInhabitant;
+            return inhabitant;
         }
         private double GetLength(Point p1, Point p2)
         {
@@ -88,7 +89,7 @@ namespace ForestInhabitant
         {
             if (GetLength(new Point(0, 0), direction) > 1)
                 throw new ArgumentException("Bad argument direction");
-            bool resultOfMove = inhabitant.Move(this, direction);
+            var resultOfMove = inhabitant.Move(this, direction);
             CheckOnChangeMap();
             return resultOfMove;
         }

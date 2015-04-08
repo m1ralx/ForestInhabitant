@@ -1,0 +1,12 @@
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\bin\Debug\map.txt
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\bin\Debug\config.conf
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\bin\Debug\ForestInhabitant.exe.config
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\bin\Debug\ForestInhabitant.exe
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\bin\Debug\ForestInhabitant.pdb
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\obj\Debug\ForestInhabitantServer.csprojResolveAssemblyReference.cache
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\obj\Debug\ForestInhabitant.MainWindow.resources
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\obj\Debug\ForestInhabitantServer.csproj.GenerateResource.Cache
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\obj\Debug\ForestInhabitant.exe
+C:\Users\Alexey\Desktop\OOP\ForestInhabitant\obj\Debug\ForestInhabitant.pdb

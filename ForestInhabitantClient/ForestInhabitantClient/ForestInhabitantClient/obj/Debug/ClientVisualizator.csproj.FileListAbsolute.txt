@@ -1,0 +1,12 @@
+C:\Users\Alexey\Desktop\OOP\ForestInhabitantClient\ForestInhabitantClient\ForestInhabitantClient\bin\Debug\map.txt
+C:\Users\Alexey\Desktop\OOP\ForestInhabitantClient\ForestInhabitantClient\ForestInhabitantClient\bin\Debug\ForestInhabitantClient.exe.config
+C:\Users\Alexey\Desktop\OOP\ForestInhabitantClient\ForestInhabitantClient\ForestInhabitantClient\bin\Debug\ForestInhabitantClient.exe
+C:\Users\Alexey\Desktop\OOP\ForestInhabitantClient\ForestInhabitantClient\ForestInhabitantClient\bin\Debug\ForestInhabitantClient.pdb
+C:\Users\Alexey\Desktop\OOP\ForestInhabitantClient\ForestInhabitantClient\ForestInhabitantClient\bin\Debug\ForestInhabitant.exe
+C:\Users\Alexey\Desktop\OOP\ForestInhabitantClient\ForestInhabitantClient\ForestInhabitantClient\bin\Debug\ForestInhabitant.pdb
+C:\Users\Alexey\Desktop\OOP\ForestInhabitantClient\ForestInhabitantClient\ForestInhabitantClient\obj\Debug\ClientVisualizator.csprojResolveAssemblyReference.cache
+C:\Users\Alexey\Desktop\OOP\ForestInhabitantClient\ForestInhabitantClient\ForestInhabitantClient\obj\Debug\ForestInhabitantClient.exe
+C:\Users\Alexey\Desktop\OOP\ForestInhabitantClient\ForestInhabitantClient\ForestInhabitantClient\obj\Debug\ForestInhabitantClient.pdb
+C:\Users\Alexey\Desktop\OOP\ForestInhabitantClient\ForestInhabitantClient\ForestInhabitantClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alexey\Desktop\OOP\ForestInhabitantClient\ForestInhabitantClient\ForestInhabitantClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alexey\Desktop\OOP\ForestInhabitantClient\ForestInhabitantClient\ForestInhabitantClient\bin\Debug\config.conf
